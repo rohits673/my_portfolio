@@ -211,7 +211,7 @@ class MinimalistNetworkPainter extends CustomPainter {
         Offset(size.width, size.height),
         [
           const Color(0xFF0A0D14),
-          const Color(0xFF101424),
+          AppColors.surfaceDark,
         ],
       );
     canvas.drawRect(
